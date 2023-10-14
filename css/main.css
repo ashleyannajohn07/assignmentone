@@ -1,0 +1,83 @@
+/*Ashley John 8912618*/
+
+.mainimg{
+    border: 5px solid darkslategrey;
+
+} 
+.header{
+    border: 5px solid darkslategrey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.footer{
+    border: 5px solid darkslategrey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+body{
+    width:100vw;
+    height:100vw;
+    max-width: 80%;
+    margin: auto;
+    font: normal normal normal 12px/1.5 Arial, Helvetica, sans-serif;
+    padding:10px;
+}  
+main{
+    float: left;
+    width:66vh;
+    margin: 10vh;
+    padding: 5vh;
+}
+aside{
+    width:33vh;
+    float: right;
+    margin: 10vh;
+    padding: 5vh;
+    
+}
+
+footer{
+    clear: both;
+}
+footer p{
+    font-size: x-small;
+    color: red;
+    
+
+}
+
+figcaption{
+    font-style:bold; font-variant: small-caps;
+}
+q{
+    font-family: cursive; font-style: italic; font-size: larger;
+}
+
+ul li{
+    list-style-type:none;
+    line-height:20px;
+}
+li > a{
+    text-decoration: none; color: darkslateblue;
+}
+
+
+h1{
+    color: darkslategrey;
+    font-variant: small-caps;
+}
+h2{
+    color: darkslategrey;
+    font-variant: small-caps;
+}
+
+aside a:hover{
+    color: hotpink;
+}
+
